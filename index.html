@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/81ed789937.js" crossorigin="anonymous"></script>
+    <title>🎬Movie Searcher</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body data-aos-easing="ease-in-out-quart" data-aos-duration="1500" data-aos-delay="0">
+    <header>
+    <div class="center" data-aos="zoom-out-right" data-aos-duration="1000" data-aos-delay="500">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#F30745" d="M26.4,-31.1C38.6,-27.5,55.9,-25.6,59.8,-18.4C63.6,-11.1,53.9,1.7,46.9,12.7C39.8,23.7,35.2,33,27.9,35.4C20.5,37.8,10.2,33.4,-3.6,38.3C-17.4,43.2,-34.7,57.5,-39.5,54.2C-44.2,50.9,-36.3,30,-38.9,14.4C-41.5,-1.2,-54.7,-11.6,-59.4,-26.2C-64.2,-40.9,-60.6,-59.7,-49.3,-63.6C-38,-67.6,-19,-56.7,-6,-48.5C7.1,-40.3,14.2,-34.8,26.4,-31.1Z" transform="translate(100 100)" />
+        </svg>
+        <h5>Movie Searcher</h5>
+    </div>
+    <hr>
+    </header>
+    <main class="column">
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/space-movie-poster-design-template-18133e937d93002c68b4649ea234d75f_screen.jpg?ts=1698340556" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artificial-intelligence-poster-design-template-63584732671231d6773a009a70a22dbd_screen.jpg?ts=1637013105" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/movie-poster-template-design-6cd0126b1dc563730e558451e67c5305_screen.jpg?ts=1637030664" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/movie-poster-template-design-630d9d1e6c7be72d25bec9a52accc428_screen.jpg?ts=1636999242" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-movie-poster-template-bf66c91406dcc58797e8135a5d201178_screen.jpg?ts=1636969322" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/love-or-romantic-movie-poster-template-design-436ee9a24b5ae70fb49756564396c627_screen.jpg?ts=1636996712" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/ffe52d163787b71756765fef3aa44904_screen.jpg?ts=1698353040" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/space-movie-poster-design-template-6402bfc0a4e9e73ca351f43120e8c36a_screen.jpg?ts=1637002705" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/apocalyptic-movie-poster-design-template-692e277e6e54a3cae88e0488402d7bfa_screen.jpg?ts=1637006525" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <section class="inputField">
+        <input id="search" type="text" placeholder="Search a movie...">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </section>
+    <section class="container">
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FbPjZGRnQvJ3L2y2Caae89Rdh6dx.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">7.9 ⭐</p>
+                <p class="year-country">2014, USA</p>
+                <p class="genre">Drama, Comedy, History</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/show/when-calls-the-heart?_gl=1*8jjrke*_ga*NTk1MjU5NjE5LjE3MTM5MTQ4MDE.*_ga_G6FQWNSENB*MTcxMzkxNDgwMC4xLjEuMTcxMzkxNDg5Ni42MC4wLjA." target="_blank">When Calls the Heart</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d9c084f2df347001e3af5fb%2Fextras%2F62044d3d4a60331098963e57" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fv8V9hLWArWhoIdmZ1ujmWrJZL6J.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">8.6 ⭐</p>
+                <p class="year-country">2011, Sweden, Denmark</p>
+                <p class="genre">Crime, Mystery, Thriller</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/show/the-bridge-2011" target="_blank">The Bridge</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://m.imdb.com/video/embed/vi2129314585/?vPage=1" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fa%2Fgracenote%2Fa54793bf082817301b2efcfae779eb48.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">7.0 ⭐</p>
+                <p class="year-country">2009, USA</p>
+                <p class="genre">Comedy, Drama</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/a-serious-man" target="_blank">A Serious Man</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d7768382ec6b5001f6bc845%2Fextras%2F6204264eb89cc49eb3b26286" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F5%2Fgracenote%2F5136d87aa7385324112aa0c23933766d.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">5.7 ⭐</p>
+                <p class="year-country">2016, Germany, USA</p>
+                <p class="genre">Thriller, Action, Adventure</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/collide-2016" target="_blank">Collide</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d9f392f9dd5f4001e8482d1%2Fextras%2F620425d48e4354a41ef85980" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fok2sl6rGITZ0W94DeRU4VkB2ssW.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">5.8 ⭐</p>
+                <p class="year-country">2013, USA</p>
+                <p class="genre">Science Fiction, Adventure</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/the-host-2013" target="_blank">The Host</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d7768b46f6af7001ee5b480%2Fextras%2F6204244254b4b97127ba11bd" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fy9DdvY1IRNS2hWLq161hmP2gXn.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">6.5 ⭐</p>
+                <p class="year-country">2010, USA</p>
+                <p class="genre">Drama, Comedy, Romance</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/letters-to-juliet" target="_blank">Letters to Juliet</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d77686a3ab0e7001f500a4b%2Fextras%2F6204261befb506ae3522ea06" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fplex%2Fc1e74ca0-354d-4d65-9995-bac286093ee6.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">5.1 ⭐</p>
+                <p class="year-country">2023, USA</p>
+                <p class="genre">Thriller, Drama, Mystery</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/chariot" target="_blank">Chariot</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d9f3c2306d220001febc09b%2Fextras%2F6204eae126939b887a148970" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F2%2Fgracenote%2F2028c08f26ac8b8e2c013aadfcfccadf.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">4.8 ⭐</p>
+                <p class="year-country">2017, USA</p>
+                <p class="genre">Comedy, Romance</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/the-layover-2017" target="_blank">The Layover</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://www.google.com/search?q=the+layover+film+trailer&oq=the+layover+film+trailer&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTExMTczajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:9263d9f4,vid:d_-S26sgfUY,st:0" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fn8O9WOAL1DVOMEQJpYatNqpNauK.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">8.3 ⭐</p>
+                <p class="year-country">1992, USA</p>
+                <p class="genre">Crime, Thriller</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/reservoir-dogs" target="_blank">Reservoir Dogs</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d776826103a2d001f564150%2Fextras%2F6204249630a0d8303017316c" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F1%2Fgracenote%2F1fd7606a9c43aeacfaf86b9731039afb.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">8.7 ⭐</p>
+                <p class="year-country">2024, USA</p>
+                <p class="genre">Action, Adventure, Drama</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/dune-sequel" target="_blank">Dune: Part Two</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5eb8f22237ccbe0041723253%2Fextras%2F6453e2785003fcccbc982d80" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F1%2Fgracenote%2F10dedc2e7fdf6e14e34460e2705cdba2.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">7.3 ⭐</p>
+                <p class="year-country">2024, Canada, USA</p>
+                <p class="genre">Action, Thriller, Crime,</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/monkey-man-2" target="_blank">Monkey Man</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d77709a6afb3d002061deb2%2Fextras%2F65b5a7f777e7b3c9049c3f5a" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2Ff%2Fgracenote%2Ff57fb628edec035ce4d1b8709fea2c70.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">7.2 ⭐</p>
+                <p class="year-country">2024, USA</p>
+                <p class="genre">Comedy</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/untitled-julio-torres-project" target="_blank">Problemista</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F60f8123434fd9c002cecf1c1%2Fextras%2F646e8a8df7258a30c4a48eab" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FvHqeLzYl3dEAutojCO26g0LIkom.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">8.7 ⭐</p>
+                <p class="year-country">1987, USA</p>
+                <p class="genre">Animation, Comedy, Family</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/show/the-simpsons" target="_blank">The Simpsons</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d9c080d3c3f87001f3460e8%2Fextras%2F620462f445a1393291506760" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">8.9 ⭐</p>
+                <p class="year-country">1994, USA</p>
+                <p class="genre">Comedy, Romance</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/show/friends-2" target="_blank">Friends</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d9c086d2192ba001f3101c6%2Fextras%2F620494732ed0bf59aeea41cb" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FooBGRQBdbGzBxAVfExiO8r7kloA.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">8.1 ⭐</p>
+                <p class="year-country">2007, USA</p>
+                <p class="genre">Comedy, Romance</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/show/the-big-bang-theory" target="_blank">The Big Bang Theory</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F5d9c086c02391c001f5891b3%2Fextras%2F6204946ba0223c9726f4062e" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+        <article class="movie" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="300">
+            <div class="image-container">
+            <img class="photo" src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F9%2Fgracenote%2F90a27ba9be0db70843efbf48fa988d5c.jpg" alt="movie">
+            <div class="middle">
+                <p class="rating">6.4 ⭐</p>
+                <p class="year-country">2024, USA</p>
+                <p class="genre">Animation, Action, Adventure</p>
+            </div>
+            </div>
+            <p><a class="name" href="https://watch.plex.tv/movie/kung-fu-panda-4-2024" target="_blank">Kung Fu Panda 4</a></p>
+            <p class="trailer"><a class="trailer-link" href="https://watch.plex.tv/watch/video?uri=provider:%2F%2Ftv.plex.provider.discover%2Flibrary%2Fmetadata%2F62f7fa559cfa6d4d6ff07649%2Fextras%2F657a134fbd2436f6592327e6" target="_blank"><i class="fa-solid fa-video"></i>Trailer</a></p>
+        </article>
+    </section>
+    <hr>
+</main>
+    <footer>
+        <div class="column">
+            <p class="footer-info">Movies info was taken from <a class="link" href="https://www.plex.tv/" target="_blank">www.plex.tv</a></p>
+            <p class="footer-info">Slider photos were taken from <a class="link" href="https://www.postermywall.com/" target="_blank">www.postermywall.com</a></p>
+            <p class="footer-info">Designed and developed by <a class="link" href="https://natalia-musikhina-portfolio.glitch.me/" target="_blank">Natalia Musikhina</a></p>
+            <button id="backToTop">
+                <span>&#11165;</span>
+            </button>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
